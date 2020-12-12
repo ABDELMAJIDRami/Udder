@@ -24,6 +24,7 @@
 		2D0D9A9325851D4D008A9DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D0D9A9625851D4D008A9DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D0D9A9825851D4D008A9DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D0D9A9F25851D55008A9DC4 /* Udder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Udder.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		2D0D9A8925851D4C008A9DC4 /* Udder */ = {
 			isa = PBXGroup;
 			children = (
+				2D0D9A9F25851D55008A9DC4 /* Udder.entitlements */,
 				2D0D9A8A25851D4C008A9DC4 /* AppDelegate.swift */,
 				2D0D9A8C25851D4C008A9DC4 /* SceneDelegate.swift */,
 				2D0D9A8E25851D4C008A9DC4 /* ViewController.swift */,
@@ -286,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Udder/Udder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RY94A34KXM;
 				INFOPLIST_FILE = Udder/Info.plist;
@@ -295,6 +298,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramiincloud.Udder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Udder/Udder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RY94A34KXM;
 				INFOPLIST_FILE = Udder/Info.plist;
@@ -314,6 +319,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ramiincloud.Udder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
